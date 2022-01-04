@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CubitWall</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/png" href="./favicon.ico">
+</head>
+<body>
+    <header>
+        <button><a href="https://ezrabro.github.io/">Home</a></button>
+        <h1>CubitWall</h1>
+        <div class="logo">
+            <img width="50px" src="./favicon.ico" alt="logo">
+        </div>
+    </header>
+    <main>
+        <article>
+            <div class="title">
+                <h1>CubitWall</h1>
+            </div>
+            <div class="content">
+                <p>
+                    English :
+                    CubitWall is a web application that allows you to create a custom bitcoin wallet.
+                    You can`t change first letter of wallet, but you can change the rest of the letters.
+                </p>
+                <p dir="rtl">
+
+                    فارسی :
+
+                    با استفاده از این برنامه می توانید کیف پول بیتکوین دلخواه خود را بسازید.
+                    شما نمی توانید برای اولین حرف کیف پول تغییر دهید، اما برای حرف بعدی می توانید تغییر دهید.
+                </p>
+            </div>
+            <div class="tool">
+                <div class="settings">
+                    <div class="nameBox">
+                        <p>1</p>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="nameBox">
+                        <input type="checkbox" name="CaseS" id="CaseS">
+                        <label for="CaseS">Case sensitive</label>
+                    </div>
+                    <div class="nameBox">
+                        <input type="checkbox" name="CpuL" id="CpuL">
+                        <label for="CpuL">Cpu Limited</label>
+                    </div>
+                    <button id="startGen">Start | شروع</button>
+                </div>
+                <textarea name="text" id="text" readonly></textarea>
+            </div>
+            <div>
+                <h2>Embed this tool in your website | برای درج این ابزار در وبسایت خود از این لینک استفاده کنید</h2>
+                <textarea name="" id="" cols="30" rows="10"><iframe src="https://ezrabro.github.io/cubitwall/tool.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe></textarea>
+            </div>
+        </article>
+    </main>
+</body>
+<script src="./bundle.js"></script>
+</html>
